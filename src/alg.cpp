@@ -9,6 +9,7 @@ bool checkPrime(uint64_t value) {
             return false;
         }
     }
+    return true;
 }
 
 // Finding the nth prime number in the series

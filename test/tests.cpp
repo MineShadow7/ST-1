@@ -1,7 +1,7 @@
 // Copyright 2024 Karagodin Andrey
 #include <gtest/gtest.h>
 #include <cstdint>
-#include "alg.h"
+#include "../include/alg.h"
 
 TEST(checkPrime, TestAlgorithmWorking) {
     EXPECT_TRUE(checkPrime(3));
